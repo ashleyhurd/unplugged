@@ -122,12 +122,15 @@ a {
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
+  font-weight: 500;
 }
  
 h3, 
 h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
+  font-weight: 500;
+  margin: 20px 0;
 }
  
 p {
@@ -136,11 +139,11 @@ p {
 }
  
 img {
- 
+ width: 100%;
 }
  
 figure {
- 
+ margin: 0;
 }
  
 address {
@@ -173,6 +176,14 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .header-divider {
@@ -247,6 +258,7 @@ footer .copyright {
   flex-flow: row wrap;
   background: url('../img/girl.jpg') center no-repeat #333;
   background-size: cover;
+  min-height: 500px;
 }
 
 .hero-area h1 {
@@ -299,6 +311,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/nature.jpg') center no-repeat #333;
+  background-size: cover;  
 }
 
 .features h2 {
@@ -606,6 +620,11 @@ input[type=button] {
 
   .reviews h2{
     width: 85%;
+  }
+
+  .reviews article figure,
+  .reviews article div {
+    width: 49%;
   }
 
   .reviews article div {
