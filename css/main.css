@@ -160,6 +160,7 @@ address {
   margin: 50px 0;
 }
 
+
 /* -------------------- Base Header - Footer Styles -------------------- */
 
 header,
@@ -247,6 +248,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #527158;
+  border-radius: 50%;
+}
+
+footer .social-icons p i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -352,7 +361,7 @@ input[type=button] {
 
 .reviews h2 {
   margin-bottom: 40px;
-  line-height: 1
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -652,10 +661,6 @@ input[type=button] {
     width: 49%;
   }
 
-  .reviews article div {
-    width: 49%;
-  }
-
   .reviews h3 {
     width: 75%;
     margin: 0;
@@ -685,6 +690,11 @@ input[type=button] {
 
   footer p {
     line-height: 1.285;
+  }
+
+   footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
@@ -772,7 +782,7 @@ input[type=button] {
   /* Hero */
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
 }
 
   /* Aside */
