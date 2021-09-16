@@ -133,6 +133,11 @@ h4 {
   margin: 20px 0;
 }
  
+.features i {
+  font-size: 3.75em;
+        margin-bottom: 40px;
+}
+
 p {
   font-size: 0.875em;
   line-height: 1.285em;
@@ -553,7 +558,7 @@ input[type=button] {
   }
 
   h2{
-    font-size:  1.5em;
+    font-size:  2.25em;
     line-height: 1.333;
   }
 
@@ -590,6 +595,10 @@ input[type=button] {
   }
 
   /* Hero Area */
+
+  .hero-area {
+    min-height: 600px;
+  }
 
   .hero-area h1{
     font-size: 3em;
@@ -740,9 +749,6 @@ input[type=button] {
   /* Desktop styles here */
   header {
     padding:  15px 0;
-  }
-
-  header figure {
   }
 
   .content-wrapper {
